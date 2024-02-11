@@ -17,7 +17,7 @@ let Form=(Props)=>
         setText(Props.String)
     }, [Props.String])
     
-    return(
+    return( 
         <div className="Form">
             <input type="text" placeholder='Enter any To Do ...' value={Text} onChange={(Event)=>{HandleInput(Event.target.value)}}/>
             <div className='Plus' onClick={()=>{HandleClick()}}>
