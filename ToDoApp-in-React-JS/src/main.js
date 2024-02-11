@@ -1,7 +1,7 @@
 import { useEffect, useState} from 'react'
 import './App.css'
 import Form from './Components/Form'
-import Todo from './Components/Todo'
+import Todo from './Components/Todo' 
 
 let App = () => {
     let [ToDoArray, setToDoArray] = useState([]);
