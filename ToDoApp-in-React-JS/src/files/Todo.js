@@ -1,7 +1,7 @@
 import React from 'react'
 import './Todo.css'
 
-const Todo = (Props) => {
+const Todo = (Props) => { 
   return (
     <div className='Todo'>
         {
